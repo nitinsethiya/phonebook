@@ -1,0 +1,44 @@
+.app {
+    background: #000000;
+    height: 100vh;
+}
+
+.h3{
+    color: #ef7306;
+}
+
+.todo-list {
+    background: #1e1e1e;
+    border-radius: 4px;
+}
+
+.counter {
+     color: #ef7306;
+}
+
+.todo-item {
+    align-items: center;
+    background: #1e1e1e;
+    color: white;
+    border-radius: 3px;
+}
+
+.todo-item:hover{
+    background: #4B4949;
+}
+
+
+.form-check-input:checked {
+    background-color: #ef7306;
+    border-color: #ef7306;
+}
+
+.btn{
+    background-color: #ef7306;
+    border: #ef7306;
+}
+
+.btn:hover{
+    background-color: #fba051;
+    border: #fba051;
+}

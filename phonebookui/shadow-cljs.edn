@@ -1,0 +1,8 @@
+;; shadow-cljs configuration
+{:lein     true
+ :dev-http {8081 "resources/public"}
+ :builds   {:app {:asset-path "./js/compiled"
+                  :target     :browser
+                  :output-dir "resources/public/js/compiled"
+                  :modules    {:main
+                               {:entries [main.phonebookui.core]}}}}}
